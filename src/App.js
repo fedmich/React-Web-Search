@@ -20,6 +20,9 @@ function App() {
   const theme = createTheme({
     palette: {
       mode: darkMode ? 'dark' : 'light',
+background: {
+        default: darkMode ? '#121212' : '#F1F1F1', // Light theme background color
+      },
     },
     shape: {
       borderRadius: 12, // Rounded corners for cards
